@@ -2,5 +2,6 @@
 # Usages
 ## Installation
 ```
-pip install -r requirements.txt
+pip install pipenv
+pipenv install --system
 ```
