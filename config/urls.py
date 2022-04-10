@@ -1,7 +1,8 @@
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+from firstapp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('firstapp.urls'))
+    path('students/', StudentListView.as_view(), name='students')
 ]

@@ -1,6 +1,5 @@
-from django.http import HttpResponse
-from django.http import HttpResponse
+from django.views.generic import ListView
+from .models import Student
 
-# Create your views here.
-def first_view(request):
-        return HttpResponse("I am the creator of my destiny")
+class StudentListView(ListView):
+    model = Student
