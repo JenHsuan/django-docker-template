@@ -1,4 +1,10 @@
 # Introduction
+# Installation
+```
+pip install pipenv
+pipenv install --system
+```
+
 # Usages
 ### Pure django application
 * start the django locally
@@ -8,8 +14,12 @@ python manage.py runserver
 ```
 * Visit to the localhost:8000 on the browser
 
-## Installation
+### Use with docker
+* start the django locally with docker
 ```
-pip install pipenv
-pipenv install --system
+git checkout docker-compose
+docker compose up
 ```
+* Visit to the localhost:10555 on the browser
+
+
