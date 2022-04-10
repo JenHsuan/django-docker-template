@@ -6,23 +6,7 @@ pipenv install --system
 ```
 
 # Usages
-### Pure django application
-* start the django locally
-```
-git checkout master
-python manage.py runserver
-```
-* Visit to the localhost:8000 on the browser
-
-### Use with docker
-* start the django locally with docker
-```
-git checkout docker-compose
-docker compose up
-```
-* Visit to the localhost:10555 on the browser
-
-### Use the example with django and postgreSQL locally
+## 1. Use the example with django and postgreSQL locally
 * Chekout git branch
 ```
 git checkout docker-compose-postgresql
@@ -79,7 +63,7 @@ python manage.py runserver
 * Visit http://localhost:8000/students/
 
 
-### Use the example with django and postgreSQL with Docker
+## 2. Use the example with django and postgreSQL with Docker
 * Chekout git branch
 ```
 git checkout docker-compose-postgresql
